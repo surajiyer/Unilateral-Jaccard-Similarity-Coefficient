@@ -1,4 +1,7 @@
 from typing import Iterable, Tuple
+from python_data_utils.sklearn.cluster import ap_precomputed
+import random
+import string
 
 
 def ap_ujaccard(items: Iterable[Tuple[int, set]],
